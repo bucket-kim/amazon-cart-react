@@ -2,3 +2,13 @@
   margin: 0;
 }
 
+.App {
+  background-color: #eaeded;
+}
+
+.App-main {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 18px;
+}
+
