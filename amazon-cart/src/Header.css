@@ -1,0 +1,42 @@
+.header {
+  background-color: #131a22;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 40px;
+}
+
+.header img{
+  height: 32px;
+}
+
+.header-input {
+  margin: 0 16px;
+  background-color: lightgray;
+  min-width: 500px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-input input {
+  height: 36px;
+  border: none;
+  flex: .8;
+  font-size: 18px;
+}
+
+.header-input input:focus {
+  outline: none;
+}
+
+.header-name {
+  color: white;
+  text-align: center;
+}
+
+.header-name span {
+  font-size: 14px;
+  font-weight: 500;
+}
