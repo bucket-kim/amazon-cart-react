@@ -1,6 +1,14 @@
-.cartItem {
+.carItem-Main {
   background-color: white;
   flex: 0.7;
   margin-right: 18px;
   padding: 18px;
+}
+
+.carItem-Main h1 {
+  padding-bottom: 28px;
+}
+
+.carItem-Main hr {
+  margin-bottom: 28px;
 }
