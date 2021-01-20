@@ -2,7 +2,8 @@ import React from 'react';
 import CartItem from './CartItem';
 import "./CartItems.css";
 
-function CartItems() {
+function CartItems({items}) {
+  console.log("Inside Cart Items Component", items);
   return (
     <div className="carItem-Main">
       <h1>Shopping Cart</h1>
