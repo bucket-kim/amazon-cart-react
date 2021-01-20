@@ -1,13 +1,17 @@
 .CartItem {
   display: flex;
   border-bottom: 1px solid #dddddd;
-  padding-bottom: 20px;
-  padding-top: 20px;
+  padding-bottom: 16px;
+  padding-top: 16px;
 }
 
 .CartItem-image {
   width: 180px;
   height: 180px;
+  flex-shrink: 0;
+  flex-grow: 0;
+  margin-right: 16px;
+  display: flex;
 }
 
 .CartItem-image img {
@@ -66,6 +70,7 @@
 .CartItem-price{
   font-size: 18px;
   font-weight: 700;
+  margin-left: 16px;
 }
 
 .item-delete:hover {
