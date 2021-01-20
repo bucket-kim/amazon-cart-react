@@ -2,9 +2,9 @@
   background-color: white;
   flex: .3;
   padding: 20px;
-  height: 200px;
   display: flex;
   flex-direction: column;
+  min-width: 300px;
 }
 
 .cartTotal h3 {
