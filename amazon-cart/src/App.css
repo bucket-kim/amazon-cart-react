@@ -8,7 +8,7 @@
 
 .App-main {
   display: flex;
-  justify-content: space-between;
+  align-items: flex-start;
   padding: 14px 18px;
 }
 
