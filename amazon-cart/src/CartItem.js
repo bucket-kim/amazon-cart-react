@@ -1,7 +1,7 @@
 import React from 'react';
 import "./CartItem.css";
 
-function CartItem({ item }) {
+function CartItem({ item, index, changeItemQuantity }) {
   return (
     <div className="CartItem">
       <div className="CartItem-image">
@@ -16,7 +16,9 @@ function CartItem({ item }) {
         </div>
         <div className="item-actions">
           <div className="item-quantity">
-            <select value={item.quantity}>
+            <select
+               onChange={(e) => changeItemQuantity(e, index)}
+              value={item.quantity}>
               <option value="1">Qty: 1</option>
               <option value="2">Qty: 2</option>
               <option value="3">Qty: 3</option>
